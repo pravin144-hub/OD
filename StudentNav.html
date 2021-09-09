@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Josefin Sans", sans-serif;
+            color: #474e5d;
+            background-image: url(images/Bg-9.jpg);
+            background-repeat: no-repeat;
+      background-attachment: fixed;
+     background-size: cover;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        h3 {
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+        
+        span {
+            font-size: 28px;
+            font-family: "Josefin Sans", sans-serif;
+        }
+        
+        h1 {
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        }
+        
+        ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #144f6b;
+        }
+        
+        ul.topnav li {
+            float: right;
+        }
+        
+        ul.topnav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 33px;
+            padding-bottom: 10px;
+            text-decoration: none;
+        }
+        
+        ul.topnav li a:hover:not(.active) {
+            color: rgb(74, 165, 74);
+        }
+        
+        ul.topnav li.left {
+            float: left;
+            margin-left: 3%;
+            margin-top: 15px;
+            font-size: 40px !important;
+            color: rgb(74, 165, 74) !important;
+            padding-bottom: 1%;
+        }
+        
+        .dropdown:hover {
+            color: #0bfca4;
+        }
+        
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            margin-top: 30px;
+            color: white;
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #d8d8d8;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            float: none;
+            color: #000000 !important;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 20px !important;
+            padding-bottom: 16px !important;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: rgb(0, 0, 0);
+            color: #0bfca4 !important;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .text-block1 {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 14px;
+    }
+
+    .text-block2 {
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 14px;
+    }
+
+
+    #green{
+    background-color:#4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 14px;
+    transition: all 0.3 ease;
+    }
+    
+    #green:hover{
+        background-color:#66A368;
+    }
+        @media screen and (max-width: 600px) {
+            ul.topnav li.right,
+            ul.topnav li {
+                float: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="bg-image" id="home">
+            <ul class="topnav">
+               <li><a href="student.html">Log-Out</a></li>
+                <li><a href="form.html" >Request OD</a></li>
+    
+                <li class="left">
+                    <i class="far fa-laugh-beam"></i><span>n-Duty</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="text-block1">
+        <h4>Click the Below Button to Check Out the Upcoming Events !!</h4>
+        <a><button id="green">Upcoming Events</button></a>
+        <br>
+      </div>
+
+      <div class="text-block2">
+        <h4>Check Your Attendance Percentage Here</h4>
+        <a><button id="green">Click here!!</button></a>
+      </div>
+
+      
+
+    
+</body>
+
+</html>
